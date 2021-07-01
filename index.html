@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="It's my second website">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Jiaul Haque">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetables Shop</title>
+    <!--    -------------------------------logo of titel----------------------------------------------------------->
+    <link rel="sortcurt icon" type="logo" href="img/vegetabl.png">
+    <!--------------------------------------------------- ti's cdn link------------------------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
+    <!-------------------------------external css file link here start here--------------------------------------->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--   ------------------------------------main container of this page--------------------------------------->
+    <div class="container">
+
+
+        <!-------------------------------- header section is start---------------------->
+        <header>
+            <nav>
+                <div class="logo"><img src="img/vegetabl.png" alt="">
+                </div>
+                <div class="menu">
+                    <h1 onclick="openclosemenu()">&#9776</h1>
+                </div>
+                <ul id="ul">
+                    <li class="active"><a href="#">home</a></li>
+                    <li><a href="#shop">shop</a></li>
+                    <li><a href="#vegetable">vegetable</a></li>
+
+                    <li><a href="#price">price</a></li>
+                    <li><a href="#about">about</a></li>
+
+                    <li><a href="#contact">contact us</a></li>
+                </ul>
+            </nav>
+            <div class="row" id="home">
+                <div class="left-header-section">
+                    <h2>welcome to our site</h2>
+                    <h1>vegetables shop</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore quidem, adipisci consequuntur voluptatem facilis eaque maxime ab suscipit, corrupti optio nemo labore laborum quasi distinctio ipsum eos temporibus, dolorum laboriosam.
+                    </p>
+                    <form action="#">
+                        <div class="inline">
+                            <input type="search" placeholder="Vegetables">
+                            <input type="submit" value="Search">
+
+                        </div>
+                    </form>
+                    <a href="#contact"> <button>Contact us</button>
+                    </a>
+                    <a href="#shop">
+                        <button>Vegetable</button>
+
+                    </a>
+                </div>
+                <div class="right-header">
+                    <img src="img/img2.png" alt="">
+                </div>
+            </div>
+        </header>
+
+
+        <!----------------------------------------shop section is start here-------------------------------->
+        <div id="shop" class="shop">
+            <h1><span>products</span> for you
+                <hr>
+            </h1>
+            <div class="shoprow">
+
+                <div class="card">
+                    <div class="cardcontent">
+                        <img src="img/fruit.jpg" alt="">
+                        <h3> apple </h3>
+                        <p>fresh fruits</p>
+                        <p>price <span> $60 </span></p>
+                        <button>add to cart</button>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardcontent">
+                        <img src="img/tomato.jpg" alt="">
+                        <h3> tomato</h3>
+                        <p>fresh fruits</p>
+                        <p>price <span> $10 </span></p>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardcontent">
+                        <img src="img/images.jpg" alt="">
+                        <h3> full package</h3>
+                        <p>fresh fruits</p>
+                        <p>price <span> $100 </span></p>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardcontent">
+                        <img src="img/fulcopy.jpg" alt="">
+                        <h3> fulcopy</h3>
+                        <p>fresh fruits</p>
+                        <p>price <span> $40 </span></p>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardcontent">
+                        <img src="img/img2.png" alt="">
+                        <h3> masrom</h3>
+                        <p>fresh fruits</p>
+                        <p>price <span> $10 </span></p>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardcontent">
+                        <img src="img/about.jpg" alt="">
+                        <h3> billati</h3>
+                        <p>fresh fruits</p>
+                        <p>price <span> $90 </span></p>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardcontent">
+                        <img src="img/piag.jpg" alt="">
+                        <h3> molar juse</h3>
+                        <p>fresh fruits</p>
+                        <p>price <span> $20 </span></p>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardcontent">
+                        <img src="img/v1.jpg" alt="">
+                        <h3> full packeg</h3>
+                        <p>fresh fruits</p>
+                        <p>price <span> $300 </span></p>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <button>Show More</button>
+
+        </div>
+
+
+
+        <!-----------------------------fress vegitables section is start here------------------------------>
+        <div class="fresh" id="vegetable">
+            <h1>fresh <span>vagetable</span>
+                <hr>
+            </h1>
+            <div class="freshrow">
+                <div class="leftsec">
+                    <h2>Best Vagetabels shop</h2>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages andIt is a long established fact that a reader will be distracted
+
+                    </p>
+                </div>
+                <div class="rightsection">
+                    <img src="img/v1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <!-------------------------------------------price card is start here------------------------------->
+        <div id="price" class="fullpricecard">
+            <h1>
+                Best <span>price</span> For Your
+                <hr>
+            </h1>
+        </div>
+        <div class="fullcontainer">
+            <div class="tab">
+                <div class="tabheader">
+                    <div class="name">
+                        <h1>Basic</h1>
+                    </div>
+
+                    <div class="price">
+                        <h2>$100 <span>/ Month</span></h2>
+                    </div>
+                </div>
+                <hr>
+                <ul class="list">
+                    <li>Free all vegetable </li>
+                    <li>Free one packeg solt !</li>
+                    <li>Free two packeg detergent </li>
+                    <li>Oil for one month !</li>
+                    <li class="line"><del>Neve full packeg vegetable </del></li>
+                    <li class="line"><del>not unlimited shop </del></li>
+                </ul>
+                <div class="add">
+                    <button type="submit" name="button">Bye Now</button>
+                </div>
+            </div>
+
+            <div class="tab">
+                <div class="tabheader">
+                    <div class="name">
+                        <h1>Special</h1>
+                    </div>
+
+                    <div class="price">
+                        <h2>$250 <span>/ Month</span></h2>
+                    </div>
+                </div>
+                <hr>
+                <ul class="list">
+                    <li>Free all vegetable for</li>
+                    <li>Free one packeg solt !</li>
+                    <li>Free two packeg detergent </li>
+                    <li>Oil for one month !</li>
+                    <li>Neve full packeg vegetable </li>
+                    <li class="line"><del>not unlimited shop </del></li>
+                </ul>
+                <div class="add">
+                    <button type="submit" name="button">Bye Now</button>
+                </div>
+            </div>
+            <div class="tab">
+                <div class="tabheader">
+                    <div class="name">
+                        <h1>Pro</h1>
+                    </div>
+
+                    <div class="price">
+                        <h2>$500 <span>/ Month</span></h2>
+                    </div>
+                </div>
+                <hr>
+                <ul class="list">
+                    <li>Free all package for you 😱</li>
+                    <li>Free one packeg solt </li>
+                    <li>Free two packeg detergent </li>
+                    <li>Oil for one month !</li>
+                    <li>Neve full packeg vegetable </li>
+                    <li>not unlimited shop</li>
+                </ul>
+                <div class="add">
+                    <button type="submit" name="button">Bye Now</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!------------------------------------------------about section start here----------------------------->
+        <div class="fresh abouth1" id="about">
+            <h1>about <span>us</span></h1>
+            <hr>
+            <div class="freshrow">
+                <div class="leftsec">
+                    <h2 class="about">About us </h2>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages andIt is a long established fact that a reader will be distracted
+
+                    </p>
+                    <button class="btnabout" type="button" name="button">Read More</button>
+                </div>
+                <div class="rightsection">
+                    <img src="img/about.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+        <!------------------------------------contact page design here------------------------------------------->
+        <div class="contacth1" id="contact">
+            <h1>contact <span>with us</span>
+            </h1>
+            <hr>
+        </div>
+        <div class="contactbox">
+
+            <div class="contactrowbox">
+                <div class="leftcontact">
+                    <form action="#">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="text" placeholder="Email" required>
+                        <input type="text" placeholder="Phone Number" required>
+                        <textarea name="" id="" cols="20" rows="3" placeholder="Write Massage" required></textarea>
+                        <div class="rightbtn">
+                            <button type="submit">Send</button>
+
+                        </div>
+                    </form>
+                </div>
+                <div class="rightcontact">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57842.68524126859!2d89.97742574239611!3d25.028377970220205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3757d610b1247fcd%3A0x6820b0a61eb62bfc!2sSherpur!5e0!3m2!1sen!2sbd!4v1624969032447!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-------------------------------------footer design here is start------------------------------------------>
+    <footer>
+        <div class="footercontainer">
+            <div class="flex">
+                <div class="footer-colum">
+                    <h2> Company</h2>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our searvice</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affilieat program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-colum">
+                    <h2>get help</h2>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">poyment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-colum">
+                    <h2>Online shop</h2>
+                    <ul>
+                        <li><a href="#">watch</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">shoes </a></li>
+                        <li><a href="#">dress </a></li>
+                    </ul>
+                </div>
+                <div class="footer-colum">
+                    <h2>follow us</h2>
+                    <div class="socialicon">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="lastfooter">
+        <p>Copyright &copy; Design by Monir Ahammed</p>
+    </div>
+
+
+
+    <!--------------------------------------------fixed social media icon design here----------------------------->
+    <div class="social">
+        <a href="#" class="facebook">click to show that <i class="fab fa-facebook-square"></i></a>
+        <a href="#" class="twitter">click to show that <i class="fab fa-twitter-square"></i></a>
+        <a href="#" class="instagram">click to show that <i class="fab fa-instagram-square"></i></a>
+        <a href="#" class="linkedin">click to show that <i class="fab fa-linkedin"></i></a>
+        <a href="#" class="youtube">click to show that <i class="fab fa-youtube-square"></i></a>
+
+    </div>
+
+
+
+
+
+
+
+    <!-----------------------------------------------js section start---------------------------------------->
+    <script type="text/javascript">
+        let ul = document.querySelector("ul");
+        let li = document.querySelectorAll('li');
+
+
+        li.forEach(el => {
+            el.addEventListener('click', function() {
+                ul.querySelector('.active').classList.remove('active');
+                el.classList.add('active');
+            });
+        });
+
+
+        function openclosemenu() {
+            let ul = document.getElementById('ul');
+
+            if (ul.style.display == 'block') {
+                ul.style.display = 'none';
+            } else {
+                ul.style.display = 'block';
+            }
+        }
+    </script>
+
+</body></html>
